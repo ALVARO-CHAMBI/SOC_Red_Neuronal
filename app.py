@@ -20,7 +20,7 @@ def load_sheet_dimensions(csv_path):
     return sheet_dimensions
 
 # Ruta del archivo CSV con información de las láminas
-sheet_csv_path = "data_verify.csv"
+sheet_csv_path = "data/data.csv"
 sheet_dimensions = load_sheet_dimensions(sheet_csv_path)
 
 # Función para procesar la lista de cortes
