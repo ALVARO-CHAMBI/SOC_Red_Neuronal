@@ -9,6 +9,6 @@ def create_deep_mlp(input_dim, output_dim):
         Dense(128, activation='relu'),
         Dropout(0.3),
         Dense(64, activation='relu'),
-        Dense(output_dim, activation='softmax')  # Clasificación multiclase
+        Dense(output_dim, activation='softmax')
     ])
     return model
